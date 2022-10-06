@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+section> div> img{
+    width: 100px;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(fondo.png);
+  }
+
+
+
+  
+  .title {
+    text-align: center;
+    font-size: 95x ;
+    color: gold;
+  }
+   
+  .main {
+    display: flex;
+   
+    background-color: red;
+     width: 30%; 
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  
+  
+  .input .buttons > img {
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+  } */
+  
+ 
+  
+  .pokemonData  {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white; 
+    margin-block-end: 20px; 
+     border-radius: 5px; 
+     padding: 10px; 
+  }
+ 
+   
+  
+   .main .input {
+    width: 90%;
+    font-size: 1.2em;
+  }
+  
+  pokemonData {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pokemonData .container {
+    width: 65%;
+  }
+
+  .buttons{
+    display: flex
+    
+    ;
+    /* flex-direction: column; */
+    flex: 1 1 350px;
+    justify-content: center;
+    align-items: center;
+  }

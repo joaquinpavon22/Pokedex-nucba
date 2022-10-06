@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Pokedex</h1>
+    <main class="main">
+      <section class="pokemonData">
+        <input
+          class="input"
+          type="text"
+          id="pokeName"
+          placeholder="Inserte nombre o ID del poke"
+        />
+        <div class="buttons">
+          <img src="search.svg" alt="Seach Pokemon" id="search" />
+          <img src="cancel.svg" alt="Remove" id="delete" />
+        </div>
+      </section>
+
+      <section id="app"></section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
